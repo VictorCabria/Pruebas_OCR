@@ -1,0 +1,124 @@
+# Proyecto: Sistema de Escaneo de Facturas
+
+# ============================================
+# Backend Python
+# ============================================
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/*.so
+backend/.Python
+backend/venv/
+backend/env/
+backend/ENV/
+backend/.venv
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/*.log
+backend/test_response.json
+backend/batch_results.json
+backend/result.json
+
+# ============================================
+# Flutter
+# ============================================
+opencv/.dart_tool/
+opencv/.flutter-plugins
+opencv/.flutter-plugins-dependencies
+opencv/.packages
+opencv/.pub-cache/
+opencv/.pub/
+opencv/build/
+opencv/.flutter-plugins
+opencv/.flutter-plugins-dependencies
+
+# iOS
+opencv/ios/Pods/
+opencv/ios/.symlinks/
+opencv/ios/Flutter/Flutter.framework
+opencv/ios/Flutter/Flutter.podspec
+opencv/ios/.generated/
+opencv/ios/Flutter/ephemeral/
+
+# Android
+opencv/android/.gradle
+opencv/android/.idea
+opencv/android/local.properties
+opencv/android/**/build/
+opencv/android/gradle/
+opencv/android/.settings/
+
+# macOS
+opencv/macos/Pods/
+opencv/macos/Flutter/ephemeral/
+
+# Linux
+opencv/linux/flutter/ephemeral/
+
+# Windows
+opencv/windows/flutter/ephemeral/
+
+# ============================================
+# IDEs
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.iml
+.history/
+
+# ============================================
+# Sistema Operativo
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ============================================
+# Variables de Entorno
+# ============================================
+.env
+.env.local
+.env.*.local
+
+# ============================================
+# Logs
+# ============================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================================
+# Temporales
+# ============================================
+*.tmp
+*.temp
+*.bak
+*.swp
+*~.nib
+
+# ============================================
+# Pruebas
+# ============================================
+coverage/
+.nyc_output/
+.pytest_cache/
+
+# ============================================
+# Docker
+# ============================================
+*.env.docker
+
+# ============================================
+# Archivos de prueba (descomenta si no quieres commitearlos)
+# ============================================
+# test_invoice.jpg
+# test_response.json
+
